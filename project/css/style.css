@@ -1,27 +1,86 @@
 body {
-    background-color:#75B9BE ;
+    background-color: rgb(191, 194, 194);
     font-size: 16px;
 }
 
-header, nav, main, footer {
+
+header,
+nav,
+main,
+footer {
     max-width: 960px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+
 }
 
 header {
-    background-color: #75B9BE;
-    color: #A8CCC9; 
-    border: 1px solid #5b9aa0 ; 
-    padding: 10px; 
+    background-color: rgb(126, 158, 160);
+    color: #A8CCC9;
+    border: 1px #5b9aa0;
+    padding: 25px;
 }
 
 header img {
-    width: 50px; 
-    height: auto; 
-    border: 1px solid rgb(7, 96, 230); 
-    box-shadow: 0 0 30px #fff; 
+    float: left;
+    /* background-color: rgb(233, 240, 239); */
+    width: 250px;
+    height: auto;
+    /* border: 1px solid rgb(7, 96, 230);  */
+    /* box-shadow: 0 0 30px #fff;  */
 }
 
+
 header h1 {
-    font-size: 2.5rem;
+    position: relative;
+    top: 18px;
+    left: 10px;
+    font-size: 3.5rem;
+    font-style: oblique;
+    color: rgb(46, 40, 19)
+}
+
+nav ul {
+    margin: 0;
+    padding: 15px;
+    width: 200px;
+}
+
+li a {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    color: rgb(221, 106, 11);
+}
+
+.Banner {
+    width: 750px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+
+}
+
+.image1 {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+
+.image2 {
+    width: 400px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+}
+
+
+.First-Paragraph p {
+    background-color: rgb(207, 194, 174);
+}
+
+.Paragraph2 p {
+    background-color: rgb(207, 194, 174);
+}
+
+.Paragraph3 p {
+    background-color: rgb(207, 194, 174);
 }
