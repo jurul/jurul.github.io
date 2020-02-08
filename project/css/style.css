@@ -1,23 +1,25 @@
 body {
-    background-color: rgb(191, 194, 194);
+    background-color: rgb(106, 128, 128);
     font-size: 16px;
 }
 
 div.page-container { 
     max-width: 960px;
     margin: 0 auto;
-    box-shadow: 0 0 30 ox #777777;
+    padding: 30px;
+    box-shadow: 0 0 30px #777777;
+    background-color: rgb(156, 177, 184);
 }
-
 
 header {
     background-color: rgb(126, 158, 160);
-    opacity: 0.8;
+    opacity: 0.9;
     display: flex;
     align-items: center;
     color: #A8CCC9;
     border: 1px #5b9aa0;
 }
+
 
 header img {
     float: left;
@@ -57,7 +59,7 @@ header h1 {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 9px;
     overflow: hidden;
     background-color: #9e9d9d;
 }
@@ -78,12 +80,12 @@ li a {
 
 /* Change the link color on hover */
 li a:hover {
-    color: rgb(70, 34, 5);
+    color: rgb(53, 27, 7);
     background-color: #777676;
 }
 
-.Banner {
-    width: 750px;
+.banner img {
+    width: 960px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 
 }
@@ -100,13 +102,14 @@ li a:hover {
 
 
 .First-Paragraph p {
-    background-color: rgb(207, 194, 174);
+    background-color: rgb(212, 208, 201);
 }
 
+
 .Paragraph2 p {
-    background-color: rgb(207, 194, 174);
+    background-color: rgb(212, 208, 201);
 }
 
 .Paragraph3 p {
-    background-color: rgb(207, 194, 174);
+    background-color: rgb(212, 208, 201);
 }
