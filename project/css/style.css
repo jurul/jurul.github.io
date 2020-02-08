@@ -3,21 +3,20 @@ body {
     font-size: 16px;
 }
 
-
-header,
-nav,
-main,
-footer {
+div.page-container { 
     max-width: 960px;
     margin: 0 auto;
-
+    box-shadow: 0 0 30 ox #777777;
 }
+
 
 header {
     background-color: rgb(126, 158, 160);
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
     color: #A8CCC9;
     border: 1px #5b9aa0;
-    padding: 25px;
 }
 
 header img {
@@ -27,6 +26,11 @@ header img {
     height: auto;
     /* border: 1px solid rgb(7, 96, 230);  */
     /* box-shadow: 0 0 30px #fff;  */
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -39,21 +43,43 @@ header h1 {
     color: rgb(46, 40, 19)
 }
 
+.motto {
+    font-style : italic;
+    color : rgb(34, 14, 14);
+    font-size : 1.5rem;
+    letter-spacing : 1.5pt;
+    display : flex;
+    justify-content : center;
+    padding-bottom : 1rem;
+
+}
+
 nav ul {
+    list-style-type: none;
     margin: 0;
     padding: 15px;
-    width: 200px;
+    overflow: hidden;
+    background-color: #9e9d9d;
+}
+
+li {
+    float: left;
 }
 
 li a {
+    display: block;
+    text-align: center;
+    padding: 0 0 0 150px;
     font-weight: bold;
     color: rgb(0, 0, 0);
+    padding: 14px 16px;
     text-decoration: none;
 }
 
 /* Change the link color on hover */
 li a:hover {
-    color: rgb(221, 106, 11);
+    color: rgb(70, 34, 5);
+    background-color: #777676;
 }
 
 .Banner {
