@@ -3,7 +3,7 @@ body {
     font-size: 16px;
 }
 
-div.page-container { 
+div.page-container {
     max-width: 960px;
     margin: 0 auto;
     padding: 30px;
@@ -43,13 +43,13 @@ header h1 {
 }
 
 .motto {
-    font-style : italic;
-    color : rgb(34, 14, 14);
-    font-size : 1.5rem;
-    letter-spacing : 1.5pt;
-    display : flex;
-    justify-content : center;
-    padding-bottom : 1rem;
+    font-style: italic;
+    color: rgb(34, 14, 14);
+    font-size: 1.5rem;
+    letter-spacing: 1.5pt;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
 
 }
 
