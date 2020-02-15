@@ -3,7 +3,7 @@ body {
     font-size: 16px;
 }
 
-div.page-container { 
+div.page-container {
     max-width: 960px;
     margin: 0 auto;
     padding: 30px;
@@ -23,11 +23,8 @@ header {
 
 header img {
     float: left;
-    /* background-color: rgb(233, 240, 239); */
     width: 250px;
     height: auto;
-    /* border: 1px solid rgb(7, 96, 230);  */
-    /* box-shadow: 0 0 30px #fff;  */
 }
 
 .headings {
@@ -46,13 +43,13 @@ header h1 {
 }
 
 .motto {
-    font-style : italic;
-    color : rgb(34, 14, 14);
-    font-size : 1.5rem;
-    letter-spacing : 1.5pt;
-    display : flex;
-    justify-content : center;
-    padding-bottom : 1rem;
+    font-style: italic;
+    color: rgb(34, 14, 14);
+    font-size: 1.5rem;
+    letter-spacing: 1.5pt;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
 
 }
 
@@ -62,6 +59,7 @@ nav ul {
     padding: 9px;
     overflow: hidden;
     background-color: #9e9d9d;
+    font-size: larger;
 }
 
 li {
@@ -85,6 +83,7 @@ li a:hover {
 }
 
 .banner img {
+    display: flex;
     width: 960px;
     box-shadow: 0 4px 8px rgb(0, 0, 0);
 
@@ -100,19 +99,36 @@ li a:hover {
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
 }
 
-.paragraph1 h2{
-    font-weight: bolder;
+.first-paragraph h2 {
+    color: rgb(46, 40, 19);
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
 }
 
-.paragraph1 p {
-    background-color: rgb(212, 208, 201);
+
+.first-paragraph p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
-.Paragraph2 p {
-    background-color: rgb(212, 208, 201);
+.paragraph2 h2 {
+    color: rgb(46, 40, 19);
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
 }
 
-.Paragraph3 p {
-    background-color: rgb(212, 208, 201);
+.paragraph2 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.paragraph3 h2 {
+    color: rgb(46, 40, 19);
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.paragraph3 p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
