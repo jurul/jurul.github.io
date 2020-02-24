@@ -148,7 +148,7 @@ li a:hover {
 }
 
 .home-paragraph-1 {
-    grid-column: 2 / 4;
+    grid-column: 1 / 4;
     grid-row: 2 / 4;
     /* margin-right: 0.5rem; */
 }
@@ -167,13 +167,13 @@ margin-right : 0.5em;
 }
 
 .home-headline-2 {
-    grid-column: 2 / 6;
+    grid-column: 3 / 6;
     grid-row: 4 / 5;
     /* margin-left: 0.5em; */
 }
 
 .home-paragraph-2 {
-    grid-column: 2 / 6;
+    grid-column: 3/ 6;
     grid-row: 5 / 7;
     margin: 0;
     /* margin-left : 5.5em;
